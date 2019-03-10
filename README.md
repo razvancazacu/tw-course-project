@@ -40,7 +40,7 @@ On the first page you get <br>
 - Animated Menu
 - A video trailer
 - Slideshow
-- Buttons that use JS to recive informations from other components or from localStorage ( click counter )
+- Buttons that use JS to recive informations from other components or from localStorage (page reach)
 ###### SlideShow | HTML, CSS and JS
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/a.png?raw=true "")
 ## Dynamic generated info table page
