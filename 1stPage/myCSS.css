@@ -1,0 +1,397 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#fan-made {
+  font-size: 0.5em;
+}
+
+.bg-image {
+  background-image: url(skyrim-vr.jpg);
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Position text in the middle of the page/image */
+
+#titleElder {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+  font-family: DarksSkyrimFont, Planewalker;
+  text-shadow: 4px 4px 10px black;
+  font-size: 2em;
+}
+
+.main {
+  margin-top: 30px;
+  padding: 16px;
+  height: 100%;
+  /*scroll*/
+}
+
+#titleElder:hover {
+  background-color: rgba(165, 13, 13, 0.4);
+  border: 4px solid #af0000;
+}
+
+#footerEnd {
+  z-index: 3;
+  margin: auto;
+  font-size: 150%;
+  text-align: center;
+  position: static;
+  transform: translate(-0%, -70px);
+  text-shadow: 0.6px 0.1px 20px white;
+  font-family: Planewalker;
+}
+
+#audio {
+  display: none;
+}
+
+/* Full-width input fields */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ad4d46;
+}
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.containerDown {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+span.psw {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.register {
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+#register {
+  font-size: 20px;
+  margin-top: 15px;
+  background: linear-gradient(#22abe9 5%, #36caf0 100%);
+  border: 1px solid #0F799E;
+  padding: 7px 35px;
+  color: white;
+  text-shadow: 0px 1px 0px #13506D;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#register:hover {
+  background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: rgb(184, 183, 183);
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid black;
+  width: 40%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: rgb(184, 183, 183);
+}
+
+.close:hover, .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 50%;
+  }
+}
+
+#id01 {
+  z-index: 5;
+}
+
+#id02 {
+  z-index: 6;
+}
+
+@-webkit-keyframes flash-background {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+
+/* Standard syntax */
+
+@keyframes flash-background {
+  from {
+    color: red;
+  }
+  to {
+    color: white;
+  }
+}
+
+#login-txt {
+  -webkit-animation-name: flash-background;
+  -webkit-animation-duration: 1s;
+  animation-name: flash-background;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+header {
+  font-size: 1.2em;
+}
+
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 93%;
+  left: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(158, 158, 158);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 4px;
+  bottom: 4px;
+  top: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: rgb(19, 22, 26);
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px rgb(19, 22, 26);
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#audio-song {
+  display: none;
+}
+
+#audio-text {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  margin: auto;
+  top: 93%;
+  left: 90px;
+  text-align: center;
+  font-family: DarksSkyrimFont, Planewalker;
+  text-shadow: 4px 4px 10px black;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 400px) {
+  #titleElder {
+    font-size: 1em;
+  }
+}
+
+#bg-audio-button {
+  top: 60px;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white; 
+  position: fixed;
+  top: 64%;
+  left: 0;
+}

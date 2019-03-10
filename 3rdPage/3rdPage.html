@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="eng" class="animated fadeIn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RARE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="3rdPage.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="animate.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="3rdPage.js"></script>
+</head>
+
+<body id="main">
+    <nav class="myNav">
+        <header id="navHeader">
+            <ul class="sidenav">
+                <li id="menu-center"><span id="open-nav" onclick="openNav()">&#9776;MENU</span></li>
+                <li>
+                    <button id="stones" class="btn btn-dark">STONES OF BARENZIAH</button>
+                </li>
+                <li>
+                    <button id="infinium" class="btn btn-dark">OGHMA INFINIUM</button>
+                </li>
+                <li>
+                    <button id="treasure" class="btn btn-dark">TREASURE MAP ITEMS</button>
+                </li>
+                <li>
+                    <button id="daedric" class="btn btn-dark">DAEDRIC ARMOR</button>
+                </li>
+                <li>
+                    <button id="dawnbreaker" class="btn btn-dark">DAWNBREAKER</button>
+                </li>
+                <li>
+                    <button id="skeleton" class="btn btn-dark">SKELETON KEY</button>
+                </li>
+                <li>
+                    <button id="giant" class="btn btn-dark">GIANT'S TOE</button>
+                </li>
+                <li>
+                    <button id="crimson" class="btn btn-dark">CRIMSON NIRNROOT</button>
+                </li>
+                <li>
+                    <button id="miraak" class="btn btn-dark">MIRAAK</button>
+                </li>
+                <li>
+                    <button id="dragon" class="btn btn-dark">DRAGON SOULS</button>
+                </li>
+                <li>
+                    <button id="notched" class="btn btn-dark">NOTCHED PICKAXE</button>
+                </li>
+                <li>
+                    <button id="daedra" class="btn btn-dark"> DAEDRA HEART</button>
+                </li>
+                <li>
+                    <button id="konahrik" class="btn btn-dark">KONAHRIK</button>
+                </li>
+                <li>
+                    <button id="jagged" class="btn btn-dark">THE JAGGED CROWN</button>
+                </li>
+                <li>
+                    <button id="dwarven" class="btn btn-dark">DWARVEN BLACK BOW OF FATE</button>
+                </li>
+                <li id="table-info">
+                    <button id="remove" class="btn btn-light" onclick="deleteChild() ">REMOVE TABLE</button>
+                </li>
+            </ul>
+        </header>
+    </nav>
+    <nav id="mysmartMenu" class="smartMenu">
+        <a href="javascript:void()" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="C:/Users/cmrra/Desktop/Proiect Tehnici WEB/2ndPage/2ndHTML.html">Home</a>
+        <a href="C:/Users/cmrra/Desktop/Proiect Tehnici WEB/3rdPage/3rdPage.html">Stats</a>
+        <a href="C:/Users/cmrra/Desktop/Proiect Tehnici WEB/1stPage/myHTML.html">Exit</a>
+
+        <!--Arata  <div class="bg" id="bg-id">
+        </div>smecher rau-->
+    </nav>
+    <div class="bg" id="bg-id">
+        <nav>
+            <header id="page-title-description">15 Most Difficult Items To Obtain In Skyrim</header>
+            <div class="btn-group dropright" id="dropright-btn">
+                <button type="button" id="dropright-css" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Item List With More Detail
+                </button>
+                <div class="dropdown-menu">
+                    <h6 class="dropdown-header">Wikipedia Links</h6>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Stones_of_Barenziah"
+                            target="_blank">STONES OF BARENZIAH</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Oghma_Infinium_(Skyrim)"
+                            target="_blank">OGHMA INFINIUM</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Treasure_Maps_(Skyrim)"
+                            target="_blank">TREASURE MAP ITEMS</a></button F>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Daedric_Armor"
+                            target="_blank">DAEDRIC ARMOR</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Dawnbreaker_(Skyrim)"
+                            target="_blank">DAWNBREAKER</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Skeleton_Key_(Skyrim)"
+                            target="_blank">SKELETON KEY</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Giant%27s_Toe"
+                            target="_blank">GIANT'S TOE</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Crimson_Nirnroot"
+                            target="_blank">CRIMSON NIRNROOT</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Miraak"
+                            target="_blank">MIRAAK</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Dragon_Soul"
+                            target="_blank">DRAGON SOULS</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Notched_Pickaxe"
+                            target="_blank">NOTCHED PICKAXE</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Daedra_Heart_(Skyrim)"
+                            target="_blank">DAEDRA HEART</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Konahrik_(Mask)"
+                            target="_blank">KONAHRIK</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/The_Jagged_Crown_(Item)"
+                            target="_blank">THE JAGGED CROWN</a></button>
+                    <button class="dropdown-item" type="button"><a href="http://elderscrolls.wikia.com/wiki/Dwarven_Black_Bow_of_Fate"
+                            target="_blank">DWARVEN BLACK BOW OF FATE</a></button>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div id="myDynamicTable"></div>
+        <!--Tine copiii - table-->
+
+
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>

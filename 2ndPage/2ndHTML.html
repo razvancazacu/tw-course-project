@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="animated fadeIn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOVA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="2ndCSS.css" />
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="2ndJS.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body id="main" onload="showSlides(1);">
+    <div class="dova-img">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go Up</button>
+        <nav class="myNav" id="nav-id">
+            <header id="navHeader">
+                <h1 id="h1SmartMenu"><span id="open-nav" onclick="openNav()">&#9776; MENU</span></h1>
+                <ul>
+                    <li><a href="#titleVideo">Trailer</a></li>
+                    <li><a href="#dragon-born">Dragonborn</a></li>
+                    <li id="slide-label"><a href="#slide-title">SlideShow</a></li>
+                </ul>
+            </header>
+        </nav>
+        <aside id="mysmartMenu" class="smartMenu">
+            <a href="javascript:void()" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="C:/Users/cmrra/Desktop/Proiect Tehnici WEB/2ndPage/2ndHTML.html">Home</a>
+            <a href="C:/Users/cmrra/Desktop/Proiect Tehnici WEB/3rdPage/3rdPage.html">Stats</a>
+            <a href="C:/Users/cmrra/Desktop/Proiect Tehnici WEB/1stPage/myHTML.html">Exit</a>
+        </aside>
+        <div class="bg-black" id="bg-id">
+            <header id="titleVideo">The Dovahkiin - DragonBorn</header>
+            <video class="video-gameplay" autoplay controls>
+                <source src="gameplay.mp4" type="video/mp4">
+            </video>
+            <div>
+                <input type="button" value="Display Font: " class="btn btn-primary" data-toggle="button" aria-pressed="false"
+                    autocomplete="off" onclick="getFontName()">
+                <span id="div-font-family">
+            </div>
+            <div>
+                </span><input type="button" value="Display Page Reach: " class="btn " data-toggle="button"
+                    aria-pressed="false" autocomplete="off" onclick="clickCounter()">
+                <span id="result"></span>
+            </div>
+            <section id="text-about">
+                <article class="dova-desc">
+                    <h1 id="dragon-born" style="cursor: pointer" onclick="showHideElement()">The DragonBorn</h1>
+                    <p id="toHide">The appearance of the Last Dragonborn was prophesied upon Alduin's Wall, a
+                        large edifice found within Sky Haven Temple.
+                        It depicts several events that would preface the return of the Nordic god of
+                        destruction, Alduin. The prophecy itself is dire, but scholars believed that its omens had been
+                        fulfilled and that a single individual, gifted with the same powers of the Thu'um held by the
+                        dragons themselves, may rise to fight against Alduin and assure Nirn's survival. Alduin finally
+                        returned in
+                        4E 201, during the midst of Skyrim's civil war. Raising an army of dragons from the dead, he
+                        attempted to resume his path of destruction. However, he was eventually defeated in a battle by
+                        the
+                        Last
+                        Dragonborn and three ancient Nordic heroes in Sovngarde.</p>
+                </article>
+                <article class="dova-desc">
+                    <h2>Setting and characters</h2>
+                    Skyrim is set around 200 years after the events of The Elder Scrolls IV: Oblivion,although it
+                    is not a direct sequel. The game takes place in Skyrim, a province of the Empire on the continent
+                    of Tamriel, amid a civil war between two factions: the Stormcloaks, led by Ulfric Stormcloak, and
+                    the Imperial Legion, led by General Tullius. The player character is a Dragonborn, a mortal born
+                    with the soul and power of a dragon. Alduin, a large black dragon who returns to the land after
+                    being lost in time, serves as the game's primary antagonist. Alduin is the first dragon created by
+                    Akatosh, one of the series' gods, and is prophesied to destroy man and consume the world.
+                </article>
+                <article class="dova-desc">
+                    <h3>Plot</h3>
+                    The player character is a prisoner being led to an Imperial execution in Helgen overseen by General
+                    Tullius, which includes Ulfric Stormcloak among the prisoners to be executed there. Alduin
+                    unexpectedly interrupts the procession, destroying the town before the player can be executed. The
+                    player escapes in the chaos and journeys to the city of Whiterun to request aid against the dragon
+                    threat. After slaying a dragon that attacks nearby, the player absorbs its soul, which grants them
+                    the ability to perform a shout. The city's amazed guards inform the player that they must be
+                    Dragonborn. The player is summoned to meet with the Greybeards, an order of monks who live in
+                    seclusion on Skyrim's tallest mountain, the Throat of the World. The Greybeards train the player in
+                    using shouts and inform the player of their role in stopping Alduin. The player learns that
+                    Skyrim's civil war is the last in a sequence of prophetic events foretold by the Elder Scrolls,
+                    which also predicted the return of Alduin.
+                    <br><br>
+                    The player later meets with members of the Blades, an order of dragon hunters. The player and the
+                    Blades travel to Sky Haven Temple to find a prophetic engravement on Alduin's Wall and learn that
+                    ancient Nords used a special shout against Alduin so they could engage him. To gain more
+                    information, the player meets the ancient dragon Paarthurnax, the leader of the Greybeards.
+                    Paarthurnax reveals that Alduin was cast into the currents of time by the use of an Elder Scroll in
+                    the hope that he would never reemerge. The player locates the Elder Scroll and uses it to peer
+                    through a window in time and learn the shout to combat Alduin. The player battles with Alduin, who
+                    then flees to Sovngarde, the Nordic afterlife, to gain strength by devouring the souls of deceased
+                    Nords.
+                    <br><br>
+                    The player summons and traps a dragon named Odahviing, and learns from him that Alduin has fled to
+                    Sovngarde through a portal located at an ancient fort called Skuldafn. Odahviing agrees to fly the
+                    player to Skuldafn, claiming Alduin has shown himself as weak and undeserving of leadership over
+                    the dragon race by fleeing from the Dragonborn. The player enters Sovngarde and travels to the Hall
+                    of Valor. There, they meet up with the three heroes of Nordic legend who defeated Alduin
+                    originally. With their help, the player defeats Alduin once and for all.
+                </article>
+            </section>
+            <!--Slideshow poze || galerie -->
+
+            <header id="slide-title">Skyrim Photo SlideShow</header>
+            <section class="slideshow-container">
+                <div class="mySlides">
+                    <div class="numberText">1 / 6</div>
+                    <img src="319944.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">2 / 6</div>
+                    <img src="418744.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">3 / 6</div>
+                    <img src="522960.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">4 / 6</div>
+                    <img src="243425.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">5 / 6</div>
+                    <img src="7.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">6 / 6</div>
+                    <img src="180882.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <figcaption id="caption"></figcaption>
+                </div>
+
+                <!--Afisaj poze-->
+                <article class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="319944.jpg" onclick="currentSlide(1)" alt="The Throat of the World (Dovahzul:) ">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="418744.jpg" onclick="currentSlide(2)" alt="Dovahkiin helmet">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="522960.jpg" onclick="currentSlide(3)" alt="Dovahkiin">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="243425.jpg" onclick="currentSlide(4)" alt="Alduin">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="7.jpg" onclick="currentSlide(5)" alt="Dovahkiin encountering a dragon">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="180882.jpg" onclick="currentSlide(6)" alt="Main City - Whiterun">
+                    </div>
+                </article>
+            </section>
+            <footer id="footerEnd">
+                by Razvan Cazacu<br>
+                @FrateleCazacu
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
