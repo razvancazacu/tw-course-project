@@ -15,10 +15,10 @@ Web technologies course project.
   - HTML
   - CSS
   - JS
- - stackoverflow.com and geeksforgeeks.org for
+- stackoverflow.com and geeksforgeeks.org for
   - jQuery Apex
   - PHP
- - getbootstrap.com for bootstrap
+- getbootstrap.com for bootstrap
 ---
 
 ## Introduction page
