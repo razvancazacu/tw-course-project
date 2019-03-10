@@ -13,9 +13,9 @@ On the first page you get <br>
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/z.png?raw=true "login")
 ###### Login form
 - Has jQuery/Ajax and PHP that can be used in backend, but it's not hooked up to a database so it has hardcoded credentials "admin" "admin"
-![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/c.png?raw=true "register")
 ###### Registration form
 - Same as Login form. 
+![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/c.png?raw=true "register")
 ## Main details page
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/v.png?raw=true "")
 ###### In the second page
