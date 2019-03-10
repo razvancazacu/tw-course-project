@@ -47,4 +47,12 @@ On the first page you get <br>
 ###### DropDown with hyperlinks
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/f.png?raw=true "")
 
-- Sites
+- Sites used for selflearning
+  - w3schools.com for
+    - HTML
+    - CSS
+    - JS
+   - stackoverflow.com and geeksforgeeks.org for
+    - jQuery Apex
+    - PHP
+   - getbootstrap.com for bootstrap
