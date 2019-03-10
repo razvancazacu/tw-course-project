@@ -1,7 +1,15 @@
 # Dova presentation website
 
-Web technologies course project using HTML, CSS and JS
-
+Web technologies course project.
+##### Resource used:
+- Main Used
+  - HTML
+  - CSS
+  - JS
+- Secondary used
+  - jQuery Ajax
+  - Bootstrap
+  - PHP
 ---
 
 ## Introduction page
@@ -38,12 +46,5 @@ On the first page you get <br>
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/w.png?raw=true "")
 ###### DropDown with hyperlinks
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/f.png?raw=true "")
-##### Resource used:
-- Main Used
-  - HTML
-  - CSS
-  - JS
-- Secondary used
-  - jQuery Ajax
-  - Bootstrap
-  - PHP
+
+- Sites
