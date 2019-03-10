@@ -10,6 +10,15 @@ Web technologies course project.
   - jQuery Ajax
   - Bootstrap
   - PHP
+###### Sites used for self-learning
+- w3schools.com for
+  - HTML
+  - CSS
+  - JS
+ - stackoverflow.com and geeksforgeeks.org for
+  - jQuery Apex
+  - PHP
+ - getbootstrap.com for bootstrap
 ---
 
 ## Introduction page
@@ -46,13 +55,3 @@ On the first page you get <br>
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/w.png?raw=true "")
 ###### DropDown with hyperlinks
 ![](https://github.com/razvancazacu/tw-course-project/blob/master/poze/poze%20prezentare%20readme/f.png?raw=true "")
-
-- Sites used for selflearning
-  - w3schools.com for
-    - HTML
-    - CSS
-    - JS
-   - stackoverflow.com and geeksforgeeks.org for
-    - jQuery Apex
-    - PHP
-   - getbootstrap.com for bootstrap
