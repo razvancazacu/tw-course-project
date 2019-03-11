@@ -118,18 +118,5 @@
 
 
 <script sandbox="allow-scripts" src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
-<script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyBZf5QJhhvFQ3shQUruEENa6E8a7oNs9FQ",
-        authDomain: "proiect-tw-skyrim.firebaseapp.com",
-        databaseURL: "https://proiect-tw-skyrim.firebaseio.com",
-        projectId: "proiect-tw-skyrim",
-        storageBucket: "",
-        messagingSenderId: "400137457629"
-    };
-    firebase.initializeApp(config);
-</script>
-
 
 </html>
